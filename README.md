@@ -3,4 +3,4 @@ A cohesive series on AI in software engineering
 
 ## White Papers
 
-- [Scaffolding Framework for Enterprise AI Development](./enterprise-ai-scaffolding-framework.md)
+- [8-Dimensional Scaffolding Framework for Enterprise AI Development](./enterprise-ai-scaffolding-framework.md)
