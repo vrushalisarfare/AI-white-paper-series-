@@ -11,6 +11,7 @@ A cohesive series on AI in software engineering
 - [Layer 5: Tool Scaffolding](./layer5-tool-scaffolding.md)
 - [Layer 6: Memory Scaffolding](./layer6-memory-scaffolding.md)
 - [Layer 7: Validation Scaffolding](./layer7-validation-scaffolding.md)
+- [Layer 8: Governance Scaffolding](./layer8-governance-scaffolding.md)
 
 ## Layer Summaries
 
