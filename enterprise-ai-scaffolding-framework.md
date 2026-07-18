@@ -64,6 +64,60 @@ Provide a practical, repeatable framework that helps enterprises design, deliver
 8. **Value Realization and Portfolio Scaling**  
    Validate KPI improvements after 60 days, then scale to HR and finance service desks using the same scaffolding assets.
 
+## Agents vs. Scaffolding
+
+The core architectural distinction in enterprise AI is that **agents deliver capability, while scaffolding delivers reliability**.
+
+| Agent | Scaffolding |
+|---|---|
+| Performs tasks | Enables reliable execution |
+| Has reasoning capability | Provides controls |
+| Changes frequently | Stable foundation |
+| Encodes business logic | Provides the engineering framework |
+| Executes actions | Governs actions |
+
+This distinction matters because most enterprise risk does not come from the existence of an agent alone. Risk appears when reasoning, memory, tool use, and action-taking are deployed without the surrounding context, controls, validation, and governance needed to make those actions trustworthy at scale.
+
+## What a Mature Enterprise AI Platform Contains
+
+A mature enterprise AI platform is best understood as the combination of:
+
+- **Enterprise AI Platform**
+- **Scaffolding Framework**
+- **Agents**
+- **Skills**
+- **Tools**
+- **Models**
+
+Models supply intelligence. Tools and skills extend what agents can do. Agents apply reasoning to business tasks. The scaffolding framework makes that activity dependable, auditable, and governable inside the enterprise platform.
+
+## Mapping to an Agentic SDLC Architecture
+
+This framework maps naturally to an agentic software delivery architecture such as PromptToProduct:
+
+```text
+Orchestrator Agent
+        |
+-------------------------
+AI Scaffolding Layer
+-------------------------
+Context
+Knowledge
+Prompts
+Planning
+Tools (GitHub MCP)
+Memory
+Validation
+Governance
+-------------------------
+        |
+Spec Agent
+Code Agent
+Validation Agent
+```
+
+In this model, the orchestrator and specialist agents are not the platform by themselves. They sit on top of the scaffolding layer, which supplies the shared context, knowledge, planning structure, tool access, memory, validation, and governance controls that make multi-agent execution safe and repeatable.
+
 ## Implementation Playbook (90 Days)
 - **Days 1–30:** Use-case prioritization, risk assessment, and architecture baseline.
 - **Days 31–60:** Pilot delivery with governance controls and operational dashboards.
@@ -75,3 +129,7 @@ Provide a practical, repeatable framework that helps enterprises design, deliver
 - Model quality and drift trends
 - Cost per inference and total cost of ownership
 - User adoption and business KPI uplift
+
+## Key Message
+
+**The future of enterprise AI is not building smarter agents; it is building stronger scaffolding around agents.**
