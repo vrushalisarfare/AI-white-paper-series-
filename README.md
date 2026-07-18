@@ -4,6 +4,12 @@ A cohesive series on AI in software engineering
 ## White Papers
 
 - [8-Dimensional Scaffolding Framework for Enterprise AI Development](./enterprise-ai-scaffolding-framework.md)
+- [Layer 1: Context Scaffolding](./layer1-context-scaffolding.md)
+- [Layer 2: Knowledge Scaffolding](./layer2-knowledge-scaffolding.md)
+- [Layer 3: Prompt Scaffolding](./layer3-prompt-scaffolding.md)
+
+## Layer Summaries
+
 # Layer 1: Context Scaffolding
 
 ## Purpose
