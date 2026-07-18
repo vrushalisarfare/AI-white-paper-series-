@@ -46,7 +46,7 @@ Every deployed agent must have a registered identity containing:
 | `owner_team` | The team responsible for the agent's behaviour |
 | `created_at` | Provisioning timestamp |
 | `environment` | dev / stage / prod |
-| `model_binding` | The LLM or model version the agent is authorised to call |
+| `model_binding` | The LLM or model version the agent is authorized to call |
 | `trust_level` | Low / Medium / High — governs permitted action scope |
 
 #### 1b. Authentication Mechanisms
@@ -108,7 +108,7 @@ Each tool or API available to an agent must have explicitly bounded permissions:
 
 **What can the agent do?**
 
-Authorization answers *can this agent access this resource*; policy answers *can this agent take this action in this context*. Policies encode business rules, ethical guardrails, regulatory requirements, and operational constraints as executable, version-controlled artefacts.
+Authorization answers *can this agent access this resource*; policy answers *can this agent take this action in this context*. Policies encode business rules, ethical guardrails, regulatory requirements, and operational constraints as executable, version-controlled artifacts.
 
 #### 3a. Policy Categories
 
@@ -254,7 +254,7 @@ Track consumption at multiple granularities:
 | Embedding calls | calls / tokens | Cost of knowledge retrieval |
 | Tool execution calls | calls | Cost of external API and database access |
 | Compute time | seconds | For self-hosted or fine-tuned models |
-| Storage | GB-months | Vector store, audit log, and model artefact storage |
+| Storage | GB-months | Vector store, audit log, and model artifact storage |
 
 #### 5c. Budget Controls
 
@@ -287,7 +287,7 @@ Track consumption at multiple granularities:
 
 | Without Governance Scaffolding | With Governance Scaffolding |
 |---|---|
-| Agents operate with unchecked, broad permissions | Every agent action is authorised against least-privilege policies |
+| Agents operate with unchecked, broad permissions | Every agent action is authorized against least-privilege policies |
 | No audit trail — incidents are unrecoverable | Full audit replay capability for every agent session |
 | Compliance evidence requires manual reconstruction | Automated, tamper-evident records available on demand |
 | AI costs are invisible until the invoice arrives | Real-time cost attribution with budget controls and alerts |
