@@ -8,6 +8,7 @@ A cohesive series on AI in software engineering
 - [Layer 2: Knowledge Scaffolding](./layer2-knowledge-scaffolding.md)
 - [Layer 3: Prompt Scaffolding](./layer3-prompt-scaffolding.md)
 - [Layer 4: Planning Scaffolding](./layer4-planning-scaffolding.md)
+- [Layer 5: Tool Scaffolding](./layer5-tool-scaffolding.md)
 
 ## Layer Summaries
 
