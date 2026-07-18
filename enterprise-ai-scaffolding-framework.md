@@ -1,4 +1,4 @@
-# Scaffolding Framework for Enterprise AI Development
+# 8-Dimensional Scaffolding Framework for Enterprise AI Development
 
 ## Objective
 Provide a practical, repeatable framework that helps enterprises design, deliver, and govern AI-enabled products safely and efficiently.
@@ -37,6 +37,32 @@ Provide a practical, repeatable framework that helps enterprises design, deliver
 - Monitor quality, latency, cost, safety, and business outcomes in production.
 - Use feedback loops to improve prompts, retrieval, models, and UX.
 - Run periodic governance reviews and retire low-value or high-risk deployments.
+
+## 8) Value Realization and Portfolio Scaling
+- Track value capture against baseline business KPIs and operating costs.
+- Create a scaling rubric to decide when pilots graduate, pause, or retire.
+- Reuse proven assets (patterns, datasets, controls, runbooks) across domains.
+
+## Working Example: Enterprise IT Support Copilot
+
+**Scenario:** A global enterprise launches an internal IT support copilot to reduce ticket resolution time and improve employee self-service.
+
+1. **Strategy and Use-Case Selection**  
+   Target outcomes are 30% faster first response and 20% ticket deflection for common issues.
+2. **Data Foundation**  
+   Curate historical ticket data, knowledge-base articles, and device policy documentation with ownership and quality checks.
+3. **Platform and Architecture**  
+   Deploy a retrieval-augmented architecture with model gateway, vector index, and environment promotion gates.
+4. **Model Lifecycle and MLOps**  
+   Compare two LLM options on grounded answer quality, latency, and cost; automate evaluation on a fixed benchmark set.
+5. **Security, Governance, and Compliance**  
+   Add prompt injection filters, PII redaction, audit logs, and human escalation for privileged access workflows.
+6. **Product Delivery and Change Management**  
+   Run a pilot with one region’s help desk team; define rollout criteria and training for support agents.
+7. **Operations and Continuous Improvement**  
+   Monitor answer accuracy, fallback rate, latency, and user feedback; tune retrieval and prompts weekly.
+8. **Value Realization and Portfolio Scaling**  
+   Validate KPI improvements after 60 days, then scale to HR and finance service desks using the same scaffolding assets.
 
 ## Implementation Playbook (90 Days)
 - **Days 1–30:** Use-case prioritization, risk assessment, and architecture baseline.
