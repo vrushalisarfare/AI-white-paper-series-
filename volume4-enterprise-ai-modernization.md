@@ -295,7 +295,7 @@ Every modernization phase must include a defined rollback plan:
 
 **Portfolio Assessment:** 47 COBOL programs totalling 2.3M lines of code; estimated 85 discrete business rule groups; 12 downstream integration points.
 
-**Timeline:** 18-month programme with 6 migration waves of approximately 8 programs each.
+**Timeline:** 18-month program with 6 migration waves of approximately 8 programs each.
 
 **Per-Wave Execution:**
 
@@ -334,7 +334,7 @@ Every modernization phase must include a defined rollback plan:
 ### Days 61–90: Scale the Programme
 - Apply lessons from Wave 1 to accelerate Wave 2 and beyond.
 - Tune translation agents based on quality metrics from Wave 1.
-- Report programme progress against portfolio targets and business KPIs.
+- Report program progress against portfolio targets and business KPIs.
 - Expand to data estate and process modernization workstreams.
 
 ---
@@ -345,7 +345,7 @@ Every modernization phase must include a defined rollback plan:
 |---|---|
 | Portfolio assessment coverage | 100% of in-scope applications within 30 days |
 | Translation accuracy (functional equivalence) | ≥ 99.9% output parity on test dataset |
-| Modernization programme velocity | ≥ 2× faster than traditional manual migration |
+| Modernization program velocity | ≥ 2× faster than traditional manual migration |
 | Business rules preserved and validated | 100% |
 | Production incidents attributable to migration | 0 critical, < 3 minor per wave |
 | Operating cost reduction (infrastructure) | ≥ 40% within 24 months |
@@ -365,4 +365,4 @@ Every modernization phase must include a defined rollback plan:
 
 ## Key Message
 
-**AI does not eliminate the difficulty of modernization — it changes where the difficulty is.** The hard work moves from manual code comprehension and translation to programme governance, business rule validation, and quality assurance. Organizations that invest in strong modernization scaffolding — assessment, planning, validation, and coexistence architecture — deliver faster, safer, and more complete migrations than those that treat AI translation as a magic button.
+**AI does not eliminate the difficulty of modernization — it changes where the difficulty is.** The hard work moves from manual code comprehension and translation to program governance, business rule validation, and quality assurance. Organizations that invest in strong modernization scaffolding — assessment, planning, validation, and coexistence architecture — deliver faster, safer, and more complete migrations than those that treat AI translation as a magic button.
